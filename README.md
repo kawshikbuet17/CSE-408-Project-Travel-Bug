@@ -1,6 +1,7 @@
 ##  CSE 408 - Software Development Sessional
 
 ## Project Title - Travel Bug
+Demonstration Video: https://drive.google.com/drive/folders/1_CBOLePsMYZzU1ci1VQV7zLHRGYiMYZA?usp=sharing
 
 ### Contributors
 1. Kawshik Kumar Paul\
@@ -45,5 +46,11 @@ node index
 ### To run both concurrently
 ```sh
 cd CSE-408-Project-Travel-Bug/travel-bug-frontend/
+npm run both
+```
+
+### Running Transport Guideline Provider App
+```sh
+cd CSE-408-Project-Travel-Bug/travel-bug-transport-guideline-provider/
 npm run both
 ```

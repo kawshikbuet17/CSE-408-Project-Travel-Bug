@@ -32,7 +32,7 @@ export default function Request() {
         if (data.success) {
             console.log(data);
             setBooking(data.booking);
-            setPaid(true);
+           
         }
     }
     //useEffect to fetch booking details
@@ -87,6 +87,8 @@ export default function Request() {
             body: JSON.stringify(body)
         });
         const data = await response.json();
+        if(data.success)
+        setPaid(true);
         //console.log(data);
     }
     const sendNotification = async (status) => {
